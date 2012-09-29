@@ -1,0 +1,18 @@
+<% if flash[:error] -%>
+    <p class='error'><%=h flash[:error] %></p>
+<% end -%>
+<% if flash[:notice] -%>
+    <p class='notice'><%=h flash[:notice] %></p>
+<% end -%>
+
+<h2><%= @list.name %></h2>
+<p><%= @list.description %></p>
+<ul>
+  <% @list.tasks.each do |task| %>
+  <li><%= task.description %></li>
+  <% end %>
+
+</ul>
+
+<hr />
+<%= link_to "back to all lists", lists_url %>
