@@ -14,7 +14,7 @@
 <table class="table table-striped">
   <thead>
     <th>Name</th>
-    <th>Reason</th>
+    <th>Description</th>
     <th>Tasks under this list</th>
     <th>Actions</th>
   </thead>
@@ -23,6 +23,9 @@
   <tr>
     <td><h2><%= link_to "#{list.name}", list_url(list) %></h2></td>
     <td><%= list.description %></td>
+    <td><ul><% list.tasks.each do |task| %>
+        <li><%= task.description %></li>
+    <% end %></ul></td>
     <td><%= link_to "Edit", edit_list_url(list) %>
       | <%= link_to "Delete", list_url(list), :method => :delete %></td>
   </tr>
