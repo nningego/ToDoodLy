@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9210405-7dad-4776-9fda-a1bf2834bb55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/todoList.iml" afterPath="$PROJECT_DIR$/.idea/todoList.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/lists_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/lists_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/task.rb" afterPath="$PROJECT_DIR$/app/models/task.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lists/show.html.erb" afterPath="$PROJECT_DIR$/app/views/lists/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="todoList.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +46,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="56" selection-start="527" selection-end="527" vertical-scroll-proportion="0.65882355">
+            <state line="16" column="8" selection-start="357" selection-end="357" vertical-scroll-proportion="0.39411765">
               <folding />
             </state>
           </provider>
@@ -101,7 +92,10 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1348929159000" expanded="true" signature="21:551" placeholder=" ... end" />
+                <marker date="1348929159000" expanded="true" signature="392:547" placeholder=" ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +113,9 @@
         <entry file="file://$PROJECT_DIR$/app/models/task.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="36" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1348929647000" expanded="true" signature="10:202" placeholder=" ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -766,7 +762,10 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1348929159000" expanded="true" signature="21:551" placeholder=" ... end" />
+            <marker date="1348929159000" expanded="true" signature="392:547" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,7 +779,9 @@
     <entry file="file://$PROJECT_DIR$/app/models/task.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="36" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1348929647000" expanded="true" signature="10:202" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -800,7 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="527" selection-end="527" vertical-scroll-proportion="0.65882355">
+        <state line="16" column="8" selection-start="357" selection-end="357" vertical-scroll-proportion="0.39411765">
           <folding />
         </state>
       </provider>
