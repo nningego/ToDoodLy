@@ -7,12 +7,32 @@
 
 <h2><%= @list.name %></h2>
 <p><%= @list.description %></p>
-<ul>
-  <% @list.tasks.each do |task| %>
-  <li><%= task.description %></li>
-  <% end %>
 
+<h3>steps i need to take</h3>
+<ul>
+  <% @list.tasks.incomplete.each do |task| %>
+  <li>
+    <%= task.description %> | <%= task.completed %>
+    <%= button_to "Completed", completed_list_task_path(@list.id, task.id) %>
+  </li>
+  <% end %>
 </ul>
+
+<h3>Steps i finished !</h3>
+<ul>
+  <%= @list.tasks.completed.each do |task| %>
+  <li>
+    <%= task.description %>
+  </li>
+  <% end %>
+</ul>
+
+<%= form_for [@list, @list.tasks.new] do |form| %>
+    <p><%= form.text_field :description %></p>
+    <p><%= form.submit %></p>
+<% end %>
+
+
 
 <hr />
 <%= link_to "back to all lists", lists_url %>

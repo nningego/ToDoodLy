@@ -2,8 +2,14 @@ TodoList::Application.routes.draw do
 
 
   resources :lists  do
-    resources :tasks
+    resources :tasks  do
+      member do
+        post :completed
+      end
+    end
   end
+
+  #match 'lists/:list_id/tasks/:id/completed' => 'tasks#completed', :as => :completed_task
 
   root :to => 'lists#index'
   # The priority is based upon order of creation:
